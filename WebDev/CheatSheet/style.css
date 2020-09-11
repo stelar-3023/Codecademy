@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+}
+
+table {
+  border: 2px solid #8c6b48;
+  width: 650px;
+  margin: 0 auto;
+  background-color: bisque;
+}
+
+td {
+  border: 2px solid #8c6b48;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: gainsboro;
+}
