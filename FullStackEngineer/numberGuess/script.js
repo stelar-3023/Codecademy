@@ -7,10 +7,12 @@ const generateTarget = () => {
   return Math.floor(Math.random() * 10);
 };
 
-const compareGuesses = (humanGuess, computerGuess, target) => {
-  if (Math.abs(humanGuess - target) < Math.abs(compputerGuess - target)) {
+const compareGuesses = (currentHumanGuess, computerGuess, target) => {
+  if (Math.abs(currentHumanGuess - target) < Math.abs(computerGuess - target)) {
     return true;
-  } else if (Math.abs(computerGuess - target) < Math.abs(humanGuess - target)) {
+  } else if (
+    Math.abs(computerGuess - target) < Math.abs(currentHumanGuess - target)
+  ) {
     return false;
   } else {
     return true;
@@ -19,9 +21,9 @@ const compareGuesses = (humanGuess, computerGuess, target) => {
 
 const updateScore = (winner) => {
   if (winner === "human") {
-    return humanScore++;
-  } else {
-    return computerScore++;
+    humanScore++;
+  } else if (winner === "computer") {
+    computerScore++;
   }
 };
 
