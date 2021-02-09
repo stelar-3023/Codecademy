@@ -94,7 +94,8 @@
 # line_one_words = line_one.split()
 # print(line_one_words)
 
-# authors = "Audre Lorde,Gabriela Mistral,Jean Toomer,An Qi,Walt Whitman,Shel Silverstein,Carmen Boullosa,Kamala Suraiyya,Langston Hughes,Adrienne Rich,Nikki Giovanni"
+# authors = "Audre Lorde,Gabriela Mistral,Jean Toomer,An Qi,Walt Whitman,Shel Silverstein,Carmen Boullosa,
+# Kamala Suraiyya,Langston Hughes,Adrienne Rich,Nikki Giovanni"
 
 # author_names = authors.split(',')
 # print(author_names)
@@ -131,25 +132,23 @@
 # reapers_line_one = ' '.join(reapers_line_one_words)
 # print(reapers_line_one)
 
-# winter_trees_lines = ['All the complicated details', 'of the attiring and', 'the disattiring are completed!', 'A liquid moon', 'moves gently among', 'the long branches.', 'Thus having prepared their buds', 'against a sure winter', 'the wise trees', 'stand sleeping in the cold.']
+# winter_trees_lines = ['All the complicated details', 'of the attiring and', 'the disattiring are completed!',
+# 'A liquid moon', 'moves gently among', 'the long branches.', 'Thus having prepared their buds', 'against a sure
+# winter', 'the wise trees', 'stand sleeping in the cold.']
 
 # winter_trees_full = '\n'.join(winter_trees_lines)
 # print(winter_trees_full)
 
-# love_maybe_lines = ['Always    ', '     in the middle of our bloodiest battles  ', 'you lay down your arms', '           like flowering mines    ','\n' ,'   to conquer me home.    ']
-# love_maybe_lines_stripped = []
-# for line in love_maybe_lines:
-#     love_maybe_lines_stripped.append(line.strip())
-# print(love_maybe_lines_stripped)
-# love_maybe_full = '\n'.join(love_maybe_lines_stripped)
-# print(love_maybe_full)
+# love_maybe_lines = ['Always    ', '     in the middle of our bloodiest battles  ', 'you lay down your arms',
+# '           like flowering mines    ','\n' ,'   to conquer me home.    '] love_maybe_lines_stripped = [] for line
+# in love_maybe_lines: love_maybe_lines_stripped.append(line.strip()) print(love_maybe_lines_stripped)
+# love_maybe_full = '\n'.join(love_maybe_lines_stripped) print(love_maybe_full)
 
-# toomer_bio = \
-# """
-# Nathan Pinchback Tomer, who adopted the name Jean Tomer early in his literary career, was born in Washington, D.C. in 1894. Jean is the son of Nathan Tomer was a mixed-race freedman, born into slavery in 1839 in Chatham County, North Carolina. Jean Tomer is most well known for his first book Cane, which vividly portrays the life of African-Americans in southern farmlands.
-# """
-# toomer_bio_fixed = toomer_bio.replace('Tomer', 'Toomer')
-# print(toomer_bio_fixed)
+# toomer_bio = \ """ Nathan Pinchback Tomer, who adopted the name Jean Tomer early in his literary career,
+# was born in Washington, D.C. in 1894. Jean is the son of Nathan Tomer was a mixed-race freedman, born into slavery
+# in 1839 in Chatham County, North Carolina. Jean Tomer is most well known for his first book Cane, which vividly
+# portrays the life of African-Americans in southern farmlands. """ toomer_bio_fixed = toomer_bio.replace('Tomer',
+# 'Toomer') print(toomer_bio_fixed)
 
 # god_wills_it_line_one = "The very earth will disown you"
 
@@ -161,9 +160,9 @@
 #     return poem_desc
 # print(poem_title_card('Walt Whitman', 'I Hear America Singing'))
 
-# def poem_description(publishing_date, author, title, original_work):
-#   poem_desc = "The poem {title} by {author} was originally published in {original_work} in {publishing_date}.".format(publishing_date = publishing_date, author = author, title = title, original_work = original_work)
-#   return poem_desc
+# def poem_description(publishing_date, author, title, original_work): poem_desc = "The poem {title} by {author} was
+# originally published in {original_work} in {publishing_date}.".format(publishing_date = publishing_date,
+# author = author, title = title, original_work = original_work) return poem_desc
 
 # author = "Shel Silverstein"
 # title = "My Beard"
@@ -174,7 +173,13 @@
 
 # print(my_beard_description)
 
-highlighted_poems = "Afterimages:Audre Lorde:1997,  The Shadow:William Carlos Williams:1915, Ecstasy:Gabriela Mistral:1925,   Georgia Dusk:Jean Toomer:1923,   Parting Before Daybreak:An Qi:2014, The Untold Want:Walt Whitman:1871, Mr. Grumpledump's Song:Shel Silverstein:2004, Angel Sound Mexico City:Carmen Boullosa:2013, In Love:Kamala Suraiyya:1965, Dream Variations:Langston Hughes:1994, Dreamwood:Adrienne Rich:1987"
+highlighted_poems = "Afterimages:Audre Lorde:1997,  The Shadow:William Carlos Williams:1915, Ecstasy:Gabriela " \
+                    "Mistral:1925,   Georgia Dusk:Jean Toomer:1923,   Parting Before Daybreak:An Qi:2014, The Untold " \
+                    "Want:Walt Whitman:1871, Mr. Grumpledump's Song:Shel Silverstein:2004, Angel Sound Mexico " \
+                    "City:Carmen Boullosa:2013, In Love:Kamala Suraiyya:1965, Dream Variations:Langston Hughes:1994, " \
+                    "Dreamwood:Adrienne Rich:1987 "
+
+
 # print(highlighted_poems)
 
 # highlighted_poems_list = highlighted_poems.split(',')
@@ -272,10 +277,9 @@ highlighted_poems = "Afterimages:Audre Lorde:1997,  The Shadow:William Carlos Wi
 # user_ids.update({"theLooper": 138475, "stringQueen": 85739})
 # print(user_ids)
 
-# oscar_winners = {"Best Picture": "La La Land", "Best Actor": "Casey Affleck", "Best Actress": "Emma Stone", "Animated Feature": "Zootopia"}
-# oscar_winners.update({"Supporting Actress": "Viola Davis"})
-# oscar_winners["Best Picture"] = "Moonlight"
-# print(oscar_winners)
+# oscar_winners = {"Best Picture": "La La Land", "Best Actor": "Casey Affleck", "Best Actress": "Emma Stone",
+# "Animated Feature": "Zootopia"} oscar_winners.update({"Supporting Actress": "Viola Davis"}) oscar_winners["Best
+# Picture"] = "Moonlight" print(oscar_winners)
 
 # drinks = ["espresso", "chai", "decaf", "drip"]
 # caffeine = [64, 40, 0, 120]
@@ -292,15 +296,10 @@ highlighted_poems = "Afterimages:Audre Lorde:1997,  The Shadow:William Carlos Wi
 # library = {"The Best Songs": plays, "Sunday Feelings": {}}
 # print(library)
 
-# Using Dictionaries
-# zodiac_elements = {"water": ["Cancer", "Scorpio", "Pisces"], "fire": ["Aries", "Leo", "Sagittarius"], "earth": ["Taurus", "Virgo", "Capricorn"], "air":["Gemini", "Libra", "Aquarius"]}
-# key_to_check = 'energy'
-# if key_to_check in zodiac_elements:
-#     print(zodiac_elements['energy'])
-# else:
-#     print('Not a Zodiac element')
-# print(zodiac_elements['earth'])
-# print(zodiac_elements['fire'])
+# Using Dictionaries zodiac_elements = {"water": ["Cancer", "Scorpio", "Pisces"], "fire": ["Aries", "Leo",
+# "Sagittarius"], "earth": ["Taurus", "Virgo", "Capricorn"], "air":["Gemini", "Libra", "Aquarius"]} key_to_check =
+# 'energy' if key_to_check in zodiac_elements: print(zodiac_elements['energy']) else: print('Not a Zodiac element')
+# print(zodiac_elements['earth']) print(zodiac_elements['fire'])
 
 # try / except
 # caffeine_level = {"espresso": 64, "chai": 40, "decaf": 0, "drip": 120}
@@ -310,8 +309,8 @@ highlighted_poems = "Afterimages:Audre Lorde:1997,  The Shadow:William Carlos Wi
 # except KeyError:
 #     print('Unknown Caffeine Level')
 
-# get a key
-# user_ids = {"teraCoder": 100019, "pythonGuy": 182921, "samTheJavaMaam": 123112, "lyleLoop": 102931, "keysmithKeith": 129384}
+# get a key user_ids = {"teraCoder": 100019, "pythonGuy": 182921, "samTheJavaMaam": 123112, "lyleLoop": 102931,
+# "keysmithKeith": 129384}
 
 # tc_id = user_ids.get('teraCoder', 1000000)
 # print(tc_id)
@@ -319,9 +318,8 @@ highlighted_poems = "Afterimages:Audre Lorde:1997,  The Shadow:William Carlos Wi
 # stack_id = user_ids.get('superStackSmash', 100000)
 # print(stack_id)
 
-# delete a key
-# available_items = {"health potion": 10, "cake of the cure": 5, "green elixir": 20, "strength sandwich": 25, "stamina grains": 15, "power stew": 30}
-# health_points = 20
+# delete a key available_items = {"health potion": 10, "cake of the cure": 5, "green elixir": 20, "strength
+# sandwich": 25, "stamina grains": 15, "power stew": 30} health_points = 20
 
 # health_points += available_items.pop('stamina grains', 0)
 # print(health_points)
@@ -335,36 +333,33 @@ highlighted_poems = "Afterimages:Audre Lorde:1997,  The Shadow:William Carlos Wi
 # print(health_points)
 # print(available_items)
 
-# get all keys
-# user_ids = {"teraCoder": 100019, "pythonGuy": 182921, "samTheJavaMaam": 123112, "lyleLoop": 102931, "keysmithKeith": 129384}
+# get all keys user_ids = {"teraCoder": 100019, "pythonGuy": 182921, "samTheJavaMaam": 123112, "lyleLoop": 102931,
+# "keysmithKeith": 129384}
 
-# num_exercises = {"functions": 10, "syntax": 13, "control flow": 15, "loops": 22, "lists": 19, "classes": 18, "dictionaries": 18}
+# num_exercises = {"functions": 10, "syntax": 13, "control flow": 15, "loops": 22, "lists": 19, "classes": 18,
+# "dictionaries": 18}
 
 # users = user_ids.keys()
 # print(users)
 # lessons = num_exercises.keys()
 # print(lessons)
 
-# get all values
-# num_exercises = {"functions": 10, "syntax": 13, "control flow": 15, "loops": 22, "lists": 19, "classes": 18, "dictionaries": 18}
-# total_exercises = 0
-# for exercises in num_exercises.values():
-#     total_exercises += exercises
-# print(total_exercises)
+# get all values num_exercises = {"functions": 10, "syntax": 13, "control flow": 15, "loops": 22, "lists": 19,
+# "classes": 18, "dictionaries": 18} total_exercises = 0 for exercises in num_exercises.values(): total_exercises +=
+# exercises print(total_exercises)
 
-# get all items
-# pct_women_in_occupation = {"CEO": 28, "Engineering Manager": 9, "Pharmacist": 58, "Physician": 40, "Lawyer": 37, "Aerospace Engineer": 9}
+# get all items pct_women_in_occupation = {"CEO": 28, "Engineering Manager": 9, "Pharmacist": 58, "Physician": 40,
+# "Lawyer": 37, "Aerospace Engineer": 9}
 
 # for key, value in pct_women_in_occupation.items():
 #     print('Women make up ' + str(value) + ' percent of ' + str(key) + 's')
 
-# Review Dictionaries
-# tarot = { 1:	"The Magician", 2:	"The High Priestess", 3:	"The Empress", 4:	"The Emperor", 5:	"The Hierophant", 6:	"The Lovers", 7:	"The Chariot", 8:	"Strength", 9:	"The Hermit", 10:	"Wheel of Fortune", 11:	"Justice", 12:	"The Hanged Man", 13:	"Death", 14:	"Temperance", 15:	"The Devil", 16:	"The Tower", 17:	"The Star", 18:	"The Moon", 19:	"The Sun", 20:	"Judgement", 21:	"The World", 22: "The Fool"}
-# spread = {}
-# spread["past"] = tarot.pop(13)
-# spread["present"] = tarot.pop(22)
-# spread["future"] = tarot.pop(10)
-# print(spread)
+# Review Dictionaries tarot = { 1:	"The Magician", 2:	"The High Priestess", 3:	"The Empress", 4:	"The Emperor",
+# 5:	"The Hierophant", 6:	"The Lovers", 7:	"The Chariot", 8:	"Strength", 9:	"The Hermit", 10:	"Wheel of
+# Fortune", 11:	"Justice", 12:	"The Hanged Man", 13:	"Death", 14:	"Temperance", 15:	"The Devil",
+# 16:	"The Tower", 17:	"The Star", 18:	"The Moon", 19:	"The Sun", 20:	"Judgement", 21:	"The World",
+# 22: "The Fool"} spread = {} spread["past"] = tarot.pop(13) spread["present"] = tarot.pop(22) spread["future"] =
+# tarot.pop(10) print(spread)
 
 # for key, value in spread.items():
 #     print('Your ' + str(key) + ' is the ' + str(value) + ' card.')
@@ -422,17 +417,19 @@ highlighted_poems = "Afterimages:Audre Lorde:1997,  The Shadow:William Carlos Wi
 #      print(element.count('s'))
 
 class Circle:
-  pi = 3.14
-  def __init__(self, diameter):
-    print("Creating circle with diameter {d}".format(d=diameter))
-    # Add assignment for self.radius here:
-    self.radius = diameter / 2
+    pi = 3.14
 
-  def circumference(self):
+    def __init__(self, diameter):
+        print("Creating circle with diameter {d}".format(d=diameter))
+        # Add assignment for self.radius here:
+        self.radius = diameter / 2
+
+    def circumference(self):
         return 2 * self.pi * self.radius
 
-  def __repr__(self):
-      return 'Circle with radius {radius}'.format(radius = self.radius)
+    def __repr__(self):
+        return 'Circle with radius {radius}'.format(radius=self.radius)
+
 
 medium_pizza = Circle(12)
 teaching_table = Circle(36)
@@ -446,7 +443,6 @@ print(medium_pizza)
 print(teaching_table)
 print(round_room)
 
-
 # print(dir(5))
 # def this_function_is_an_object(self):
-#     print(dir(this_function_is_an_object)) 
+#     print(dir(this_function_is_an_object))
