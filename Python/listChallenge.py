@@ -65,8 +65,8 @@
 #         return (list(list1))
 # print(every_three_nums(5))
 
-#Tuple
+# Tuple
 my_info = ('Steve', 44, 'Dialer Manager')
 print(my_info[0])
-name, age, occupation = my_info #unpacking tuple
+name, age, occupation = my_info  # unpacking tuple
 print(name)

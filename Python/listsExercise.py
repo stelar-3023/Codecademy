@@ -75,35 +75,21 @@
 # print(start)
 # print(end)
 
-# votes = ['Jake', 'Jake', 'Laurie', 'Laurie', 'Laurie', 'Jake', 'Jake', 'Jake', 'Laurie', 'Cassie', 'Cassie', 'Jake', 'Jake', 'Cassie', 'Laurie', 'Cassie', 'Jake', 'Jake', 'Cassie', 'Laurie']
-# jake_votes = votes.count('Jake')
+# votes = ['Jake', 'Jake', 'Laurie', 'Laurie', 'Laurie', 'Jake', 'Jake', 'Jake', 'Laurie', 'Cassie', 'Cassie',
+# 'Jake', 'Jake', 'Cassie', 'Laurie', 'Cassie', 'Jake', 'Jake', 'Cassie', 'Laurie'] jake_votes = votes.count('Jake')
 # print(jake_votes)
 
-# addresses = ['221 B Baker St.', '42 Wallaby Way', '12 Grimmauld Place', '742 Evergreen Terrace', '1600 Pennsylvania Ave', '10 Downing St.']
-# addresses.sort()
-# print(addresses)
-# names = ['Ron', 'Hermione', 'Harry', 'Albus', 'Sirius']
-# names.sort()
-# print(names)
-# cities = ['London', 'Paris', 'Rome', 'Los Angeles', 'New York']
-# sorted_cities = cities.sort()
-# print(sorted_cities)
-# cities.sort()
-# print(cities)
+# addresses = ['221 B Baker St.', '42 Wallaby Way', '12 Grimmauld Place', '742 Evergreen Terrace', '1600 Pennsylvania
+# Ave', '10 Downing St.'] addresses.sort() print(addresses) names = ['Ron', 'Hermione', 'Harry', 'Albus',
+# 'Sirius'] names.sort() print(names) cities = ['London', 'Paris', 'Rome', 'Los Angeles', 'New York'] sorted_cities =
+# cities.sort() print(sorted_cities) cities.sort() print(cities)
 
 # games = ['Portal', 'Minecraft', 'Pacman', 'Tetris', 'The Sims', 'Pokemon']
 # games_sorted = sorted(games)
 # print(games_sorted)
 
-# inventory = ['twin bed', 'twin bed', 'headboard', 'queen bed', 'king bed', 'dresser', 'dresser', 'table', 'table', 'nightstand', 'nightstand', 'king bed', 'king bed', 'twin bed', 'twin bed', 'sheets', 'sheets', 'pillow', 'pillow']
-# inventory_len = len(inventory)
-# print(inventory_len)
-# first = inventory[0]
-# last = inventory[-1]
-# inventory_2_6 = inventory[2:6]
-# first_3 = inventory[:3]
-# print(first_3)
-# twin_beds = inventory.count('twin bed')
-# print(twin_beds)
-# inventory.sort()
-# print(inventory)
+# inventory = ['twin bed', 'twin bed', 'headboard', 'queen bed', 'king bed', 'dresser', 'dresser', 'table', 'table',
+# 'nightstand', 'nightstand', 'king bed', 'king bed', 'twin bed', 'twin bed', 'sheets', 'sheets', 'pillow',
+# 'pillow'] inventory_len = len(inventory) print(inventory_len) first = inventory[0] last = inventory[-1]
+# inventory_2_6 = inventory[2:6] first_3 = inventory[:3] print(first_3) twin_beds = inventory.count('twin bed')
+# print(twin_beds) inventory.sort() print(inventory)
