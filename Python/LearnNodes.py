@@ -1,9 +1,10 @@
 class Node:
     def __init__(self, value, link_node=None):
         self.value = value
-        self.link_node = link_node 
+        self.link_node = link_node
 
-    # Define set_link_node method below:
+        # Define set_link_node method below:
+
     def set_link_node(self, link_node):
         self.link_node = link_node
 
@@ -14,6 +15,8 @@ class Node:
         return self.value
 
     # instantiate 3 nodes
+
+
 yacko = Node('likes to yak')
 wacko = Node('has a penchant for hoarding snacks')
 dot = Node('enjoys spending time in movie lots')
