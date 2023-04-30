@@ -66,3 +66,21 @@ console.log(`My name is ${myName}. My favorite city is ${myCity}.`) */
 console.log(typeof newVariable)
 newVariable = 1;
 console.log(typeof newVariable) */
+
+// var array1 = ["yo", "hi"];
+// array1[0] = array1[1];
+
+// var array2 = ["bye", "later"];
+// array2.splice(1, 1);
+
+// var array3 = [];
+// array3[0] = array1[0];
+// array3[1] = array2[0];
+// console.log(array3)
+
+// var myHouse = { color: "blue" };
+// console.log(myHouse.color);
+// var color = myHouse.color;
+// color = "red";
+// console.log(myHouse.color);
+// console.log(color);
