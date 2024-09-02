@@ -93,3 +93,62 @@
 # 'pillow'] inventory_len = len(inventory) print(inventory_len) first = inventory[0] last = inventory[-1]
 # inventory_2_6 = inventory[2:6] first_3 = inventory[:3] print(first_3) twin_beds = inventory.count('twin bed')
 # print(twin_beds) inventory.sort() print(inventory)
+
+# Zip Exercise
+# names = ["Jenny", "Alexus", "Sam", "Grace"]
+# heights = [61, 70, 67, 64]
+#
+# names_and_heights = zip(names, heights)
+# print(names_and_heights)
+# print(list(names_and_heights))
+
+# Nested Loops
+# sales_data = [[12, 17, 22], [2, 10, 3], [5, 12, 13]]
+# scoops_sold = 0
+# for location in sales_data:
+#     print(location)
+#     for i in location:
+#         scoops_sold += i
+#         print(i)
+# print(scoops_sold)
+
+# List Comprehensions
+numbers = [2, -1, 79, 33, -45]
+doubled = [num * 2 for num in numbers]
+print(doubled)
+
+# List Comprehensions with Conditional Logic
+heights = [161, 164, 156, 144, 158, 170, 163, 163, 157]
+
+can_ride_coaster = [height for height in heights if height > 161]
+print(can_ride_coaster)
+
+single_digits = list(range(10))
+
+squares = []
+
+for digit in single_digits:
+    print(digit)
+    squares.append(digit ** 2)
+print(squares)
+
+cubes = [digit ** 3 for digit in single_digits]
+print(cubes)
+
+for i in range(3):
+    print(i)
+
+j = 1
+while j <= 10:
+    print(j)
+    j += 1
+
+desired_list = [x - 1 for x in range(5)]
+print(desired_list)
+
+drink_choices = ["coffee", "tea", "water", "juice", "soda"]
+for drink in drink_choices:
+    print(drink)
+
+for i in range(3):
+    print(5)

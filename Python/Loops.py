@@ -54,12 +54,13 @@
 # fahrenheit = [temp * 9/5 + 32 for temp in celsius]
 # print(fahrenheit)
 
-single_digits = range(10)
-print(list(single_digits))
-squares = []
-for i in range(10):
-    print(i)
-    squares.append(i ** 2)
-    cubes = [num ** 3 for num in single_digits]
-    print(squares)
-    print(cubes)
+# single_digits = range(10)
+# print(list(single_digits))
+# squares = []
+# for i in range(10):
+#     print(i)
+#     squares.append(i ** 2)
+#     cubes = [num ** 3 for num in single_digits]
+#     print(squares)
+#     print(cubes)
+

@@ -180,7 +180,7 @@ highlighted_poems = "Afterimages:Audre Lorde:1997,  The Shadow:William Carlos Wi
                     "Dreamwood:Adrienne Rich:1987 "
 
 
-# print(highlighted_poems)
+print(highlighted_poems)
 
 # highlighted_poems_list = highlighted_poems.split(',')
 # print(highlighted_poems_list)
