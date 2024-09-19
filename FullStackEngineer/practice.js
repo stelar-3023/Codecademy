@@ -1,64 +1,64 @@
-function colorMessage(favoriteColor, shirtColor) {
-  if (favoriteColor == shirtColor) {
-    return 'The shirt is your favorite color!';
-  } else {
-    return 'That is a nice color.';
-  }
-}
+// function colorMessage(favoriteColor, shirtColor) {
+//   if (favoriteColor == shirtColor) {
+//     return 'The shirt is your favorite color!';
+//   } else {
+//     return 'That is a nice color.';
+//   }
+// }
 
-function isEven(num) {
-  if (num % 2 === 0) {
-    return true;
-  } else {
-    return false;
-  }
-}
+// function isEven(num) {
+//   if (num % 2 === 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
-function numberDigits(x) {
-  if (x >= 0 && x <= 9) {
-    return 'One digit: ' + x;
-  } else if (x >= 10 && x <= 99) {
-    return 'Two digits: ' + x;
-  } else {
-    return 'The number is: ' + x;
-  }
-}
+// function numberDigits(x) {
+//   if (x >= 0 && x <= 9) {
+//     return 'One digit: ' + x;
+//   } else if (x >= 10 && x <= 99) {
+//     return 'Two digits: ' + x;
+//   } else {
+//     return 'The number is: ' + x;
+//   }
+// }
 
-// reverseArray
-function reverseArray(arr) {
-  let newArr = [];
-  for (let i = arr.length - 1; i >= 0; i--) {
-    newArr.push(arr[i]);
-  }
-  return newArr;
-}
+// // reverseArray
+// function reverseArray(arr) {
+//   let newArr = [];
+//   for (let i = arr.length - 1; i >= 0; i--) {
+//     newArr.push(arr[i]);
+//   }
+//   return newArr;
+// }
 
-const sentence = ['sense.', 'make', 'all', 'will', 'This'];
+// const sentence = ['sense.', 'make', 'all', 'will', 'This'];
 
-console.log(reverseArray(sentence));
+// console.log(reverseArray(sentence));
 
-function greetAliens(arr) {
-  for (i = 0; i < arr.length; i++) {
-    console.log(
-      `Oh powerful ${arr[i]}, we humans offer our unconditional surrender!`
-    );
-  }
-}
-const aliens = ['Blorgous', 'Glamyx', 'Wegord', 'SpaceKing'];
+// function greetAliens(arr) {
+//   for (i = 0; i < arr.length; i++) {
+//     console.log(
+//       `Oh powerful ${arr[i]}, we humans offer our unconditional surrender!`
+//     );
+//   }
+// }
+// const aliens = ['Blorgous', 'Glamyx', 'Wegord', 'SpaceKing'];
 
-greetAliens(aliens);
+// greetAliens(aliens);
 
-function convertToBaby(arr) {
-  let newArr = [];
-  for (let i = 0; i < arr.length; i++) {
-    newArr.push('baby ' + arr[i]);
-  }
-  return newArr;
-}
+// function convertToBaby(arr) {
+//   let newArr = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     newArr.push('baby ' + arr[i]);
+//   }
+//   return newArr;
+// }
 
-const animals = ['panda', 'turtle', 'giraffe', 'hippo', 'sloth', 'human'];
+// const animals = ['panda', 'turtle', 'giraffe', 'hippo', 'sloth', 'human'];
 
-console.log(convertToBaby(animals));
+// console.log(convertToBaby(animals));
 
 // function smallestPowerOfTwo(arr) {
 //   let results = [];
@@ -155,34 +155,119 @@ console.log(convertToBaby(animals));
 
 // console.log(findMyKeys(randomStuff))
 
-function dogFactory(name, breed, weight) {
-  return {
-    _name: name,
-    _breed: breed,
-    _weight: weight,
-    get name() {
-      return this._name;
-    },
-    set name(newName) {
-      this._name = newName;
-    },
-    get breed() {
-      return this._breed;
-    },
-    set breed(newBreed) {
-      this._breed = newBreed;
-    },
-    get weight() {
-      return this._weight;
-    },
-    set weight(newWeight) {
-      this._weight = newWeight;
-    },
-    bark() {
-      return 'ruff! ruff!';
-    },
-    eatTooManyTreats() {
-      this._weight++;
-    },
-  };
+// function dogFactory(name, breed, weight) {
+//   return {
+//     _name: name,
+//     _breed: breed,
+//     _weight: weight,
+//     get name() {
+//       return this._name;
+//     },
+//     set name(newName) {
+//       this._name = newName;
+//     },
+//     get breed() {
+//       return this._breed;
+//     },
+//     set breed(newBreed) {
+//       this._breed = newBreed;
+//     },
+//     get weight() {
+//       return this._weight;
+//     },
+//     set weight(newWeight) {
+//       this._weight = newWeight;
+//     },
+//     bark() {
+//       return 'ruff! ruff!';
+//     },
+//     eatTooManyTreats() {
+//       this._weight++;
+//     },
+//   };
+// }
+
+// const factorial = (n) => {
+//   if (n < 0) {
+//     return -1;
+//   } else if (n == 0) {
+//     return 1;
+//   } else {
+//     return n * factorial(n - 1);
+//   }
+// };
+// console.log(factorial(5));
+
+// const subLength = (str, char) => {
+//   let charCount = 0;  // set charCount to 0
+//   let len = -1;  // set len to -1 to account for 0 index of string 
+//   for (let i = 0; i < str.length; i++) { // loop through string
+//     if (str[i] === char) { // if character matches
+//       charCount++; // increment charCount
+//       if (charCount > 2) { // if charCount is greater than 2
+//         return 0; // return 0
+//       }
+//       if (len === -1) { // if len is -1
+//         len = i; // set len to i
+//       } else {
+//         len = i - len + 1; // set len to i - len + 1
+//       }
+//     }
+//   } if (charCount < 2) { // if charCount is less than 2
+//     return 0; // return 0
+//   }
+//   return len; // return len
+// };
+// console.log(subLength('Funny', 'n'));
+
+const generateNumberSets = () => {
+  const numberSets = [];
+
+  for (let i = 0; i < 10; i++) {
+    const numberSet = new Set();
+
+    while (numberSet.size < 5) {
+      const randomNumber = Math.floor(Math.random() * 70) + 1;
+      numberSet.add(randomNumber);
+    }
+
+    const additionalNumber = Math.floor(Math.random() * 25) + 1;
+    numberSet.add(additionalNumber);
+
+    numberSets.push([...numberSet]);
+  }
+
+  return numberSets;
+};
+
+const sets = generateNumberSets();
+
+for (let i = 0; i < sets.length; i++) {
+  console.log(`Set ${i + 1}: ${sets[i].join(', ')}`);
 }
+
+// const groceries = (arr) => {
+//   let str = ''; // empty string to add to
+//   for (let i = 0; i < arr.length; i++) { // loop through array
+//     str += arr[i].item; // add item to string
+//     if (i < arr.length - 2) { // if not last item
+//       str += ', '  // add comma
+//     } else if (i === arr.length - 2) { // if second to last item
+//       str += ' and ' // add and
+//     }
+//   }
+//   return str;
+// };
+// groceries([
+//   { item: 'Carrots' },
+//   { item: 'Hummus' },
+//   { item: 'Pesto' },
+//   { item: 'Rigatoni' },
+// ]);
+// // returns 'Carrots, Hummus, Pesto and Rigatoni'
+
+// console.log(groceries([{ item: 'Lettuce' }, { item: 'Onions' }, { item: 'Tomatoes' }]));
+// // returns 'Bread and Butter'
+
+// console.log(groceries([{ item: 'Cheese Balls' }]));
+// // returns 'Cheese Balls'
